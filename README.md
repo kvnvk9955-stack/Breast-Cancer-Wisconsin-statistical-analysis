@@ -230,3 +230,6 @@ This project demonstrates that statistical analysis of cell nucleus features can
 
 ---
 
+## License
+
+This project is for educational purposes as part of an academic course requirement.
