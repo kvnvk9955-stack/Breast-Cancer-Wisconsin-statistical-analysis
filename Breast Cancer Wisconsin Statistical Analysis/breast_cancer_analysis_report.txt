@@ -1,0 +1,52 @@
+================================================================================
+BREAST CANCER WISCONSIN ANALYSIS REPORT
+================================================================================
+
+1. DATASET OVERVIEW
+----------------------------------------
+Total samples: 569
+Total features: 35
+Malignant cases (M): 212
+Benign cases (B): 357
+
+2. KEY FINDINGS
+----------------------------------------
+Malignancy Risk Score Distribution:
+  Score 3: 158 samples
+  Score 4: 112 samples
+  Score 5: 73 samples
+  Score 6: 49 samples
+  Score 7: 50 samples
+  Score 8: 23 samples
+  Score 9: 104 samples
+
+3. FEATURE ANALYSIS
+----------------------------------------
+radius_mean:
+  Malignant mean: 17.46
+  Benign mean: 12.15
+  Difference: 5.32
+
+area_mean:
+  Malignant mean: 978.38
+  Benign mean: 462.79
+  Difference: 515.59
+
+concavity_mean:
+  Malignant mean: 0.16
+  Benign mean: 0.05
+  Difference: 0.11
+
+4. ENGINEERED FEATURES
+----------------------------------------
+Worst_Area_Mean range: 164.35 - 3377.50
+Radius_Texture_Index range: 93.75 - 720.32
+
+5. RECOMMENDATIONS
+----------------------------------------
+Based on the analysis:
+1. Features like radius_mean, area_mean, and concavity_mean show strong
+   discriminatory power between malignant and benign cases.
+2. The engineered MalignancyRiskScore can be used as a quick screening tool.
+3. Further analysis with machine learning models is recommended for
+   automated diagnosis support.
